@@ -352,13 +352,11 @@ function adToCart(getId){
     if(exists){
         if(product.discount > 0){
             if(exists.quantity >=MAX_DISCOUNT){
-                alert("Maksimalna kolicina za proizvode na popustu je " + MAX_DISCOUNT);
                 return;
             }
         }
         else if(product.discount === 0){
-            if(exists.quantity >=MAX_REGULAR){
-                alert("Maksimalna kolicina za ovaj proizvod je "+ MAX_REGULAR);
+            if(exists.quantity >=MAX_REGULAR){ 
                 return;
             }
         }
