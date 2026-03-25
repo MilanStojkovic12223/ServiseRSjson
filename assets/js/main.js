@@ -107,7 +107,7 @@ function menuPositioning(menuUrl){
    const currentPath = window.location.pathname;
 
     
-    const isActive = currentPath.includes(menuUrl) || currentPath === "/" && menuUrl === "index.html";
+    const isActive = currentPath.includes(menuUrl) || (currentPath === "/" || currentPath.endsWith("/ServiseRSjson/")) && menuUrl === "index.html";
 
     return `class="nav-link ${isActive ? "active" : ""}" href="${isActive ? "#" : menuUrl}"`;
 }
