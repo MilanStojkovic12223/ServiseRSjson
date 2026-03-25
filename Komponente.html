@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="kompjuter, laptop, servis">
+    <meta name="description" content="Najbolji serviser računara u Srbiji">
+    <meta name="copyright" content="Milan Stojkoivć @ 2026">
+    <meta name="language" content="Serbian">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.JPG">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/646dd2caa7.js" crossorigin="anonymous"></script>
+
+    <title>Komponente</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/lg2.JPG" class="d-inline-block align-top mc-logo" alt="logo">
+              ServiseRS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+              
+            </div>
+          </div>
+        </nav>
+    </header>
+
+ <main class="flex-grow-1">
+    <h1 class="text-center mc-mt">NAJBOLJI DELOVI NA JEDNOM MESTU</h1>
+
+    <div class="cart-div">
+      <a class="cart-link" href="Korpa.html">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span id="cartCounter" class="badge bg-danger">0</span>
+      </a>
+    </div>
+    <div class="container">
+    <div class="row justify-content-center g-2">
+              <input type="text" id="searchInput" class="col-7 col-md-auto" placeholder="Pretraga po imenu..." />
+
+              <select id="componentsFilter" class="col-7 col-md-auto">
+                  <option value="all">Sve komponente</option>
+              </select>
+
+              <select id="selectSort" class="col-7 col-md-auto">
+                  <option value="default">Bez sortiranja</option>
+                  <option value="title-asc">Naziv A-Z</option>
+                  <option value="price-asc">Cena rastuce</option>
+                  <option value="price-desc">Cena opadajuce</option>
+                  <option value="discount-desc">Po popustu</option>
+              </select>
+      </div>
+    </main>
+      <div id="products" class="row mt-5 mc-w-90 mx-auto"></div>
+      <p id="noResults" class="hidden">Nema komponenata za zadate kriterijume.</p>
+      
+      <div id="pagination" class="text-center mt-4"></div>
+
+  </main>
+  
+  <footer class="bg-body-tertiary text-center text-lg-start">
+    <div class="text-center p-1  mc-bg-black text-white">
+      <p class="mt-3 mx-icon-x" id="footerID"></p>
+      <p >© 2026 Milan Stojkoivć</p>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

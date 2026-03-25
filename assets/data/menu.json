@@ -1,0 +1,22 @@
+[
+    {
+        "href": "index.html",
+        "name": "Početna"
+    },
+    {
+        "href": "Komponente.html",
+        "name": "Komponente"
+    },
+    {
+        "href": "Kontakti.html",
+        "name": "Kontakti"
+    },
+    {
+        "href": "Autor.html",
+        "name": "O autoru"
+    },
+    {
+        "href": "DOKUMENTACIJA.pdf",
+        "name": "Dokumentacija"
+    }
+]

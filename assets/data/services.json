@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bi bi-tools",
+        "title": "Popravljanje računara",
+        "text": "Pronalazimo i otklanjamo sve probleme na vašem desktop računaru, pokvarene delove menjamo najkvalitetnijim komponentama."
+    },
+    {
+        "icon": "bi bi-cpu",
+        "title": "Prodaja Konponenata",
+        "text": "Prodajemo najbolje i najkvalitetnije komponente na tržištu. Ukoliko ih nemamo na stanju nabavljamo ih po narudžbini."
+    },
+    {
+        "icon": "bi-cloud-arrow-down",
+        "title": "Backup podataka",
+        "text": "Nakon kompjuterskih kvarova može doći do brisanja vaših fajlova. Mi ih vraćamo nazad."
+    },
+    {
+        "icon": "bi bi-laptop",
+        "title": "Popravljanje laptopova",
+        "text": "Popravljamo vaše laptopove, menjamo neintegrisane delove i čistimo prašinu radi pobolšanja rada laptopa."
+    }
+]

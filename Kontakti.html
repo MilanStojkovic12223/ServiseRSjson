@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="kompjuter, laptop, servis">
+    <meta name="description" content="Najbolji serviser računara u Srbiji">
+    <meta name="copyright" content="Milan Stojkoivć @ 2026">
+    <meta name="language" content="Serbian">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.JPG">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/646dd2caa7.js" crossorigin="anonymous"></script>
+
+    <title>Kontakti</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/lg2.JPG" class="d-inline-block align-top mc-logo" alt="logo">
+              ServiseRS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              
+            </div>
+          </div>
+        </nav>
+</header>
+
+
+<div class="container-fluid mc-margin">
+    <div class="mc-w-90 card mb-5 mx-auto">
+      <div class="row g-0 mc-bg-gray1">
+        <div class="col-xl-6 col-lg-12">
+            <div class="card-body">
+                <form target="_blank" action="index.php" method="get">
+                    <div class="form-group">                     
+                        <label for="name">Ime</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ime">
+                        <div id="nameErrMsg"></div>
+                      </div>
+                      <div class="form-group">
+                        <label for="surname">Prezime</label>
+                        <input type="text" class="form-control" id="surname" placeholder="Prezime">
+                        <div id="surnameErrMsg"></div>
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Email adresa</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email">
+                      <div id="emailErrMsg"></div>
+                    </div>
+                    <div class="form-group ">
+                      <label for="phone">Telefon</label>
+                      <input type="tel" class="form-control" id="phone" placeholder="Telefon">
+                      <div id="phoneErrMsg"></div>
+                    </div>
+                   
+                      <label for="computerType">Vrsta računara</label><br>
+                      <div id="computerType">
+                        
+                    </div>
+                  <div id="computerTypeErrMsg"></div>
+                    <div class="form-group">
+                        <br>
+                        <label for="exampleFormControlTextarea1">Opis problema i dodatne informacije</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <br>
+                    <div class="text-center"> 
+                        <button type="submit" class="btn btn-md mx-3 my-3 bg-dark text-white" id="SubmitBut">Potvrdi</button>
+                        <button type="reset" class="btn btn-md mx-3 bg-dark text-white" id="ResetBut">Resetuj</button>
+                    </div>
+                  </form>
+              </div>
+            </div>
+        <div class="col-xl-6 col-lg-12 mc-pom">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11321.435429847032!2d20.4844148!3d44.8142534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2sICT%20College!5e0!3m2!1sen!2srs!4v1700570699381!5m2!1sen!2srs" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+  <footer class="bg-body-tertiary text-center text-lg-start" >
+    <div class="text-center p-1  mc-bg-black text-white">
+      <p class="mt-3 mx-icon-x" id="footerID"></p>
+      <p >© 2026 Milan Stojkoivć</p>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script> 
+</body>
+</html>

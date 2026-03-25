@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://milanstojkovic12223.github.io/ServiseRSjson/index.html</loc>
+        <lastmod>2026-3-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://milanstojkovic12223.github.io/ServiseRSjson/Komponente.html</loc>
+        <lastmod>2026-3-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://milanstojkovic12223.github.io/ServiseRSjson/Kontakti.html</loc>
+        <lastmod>2026-3-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://milanstojkovic12223.github.io/ServiseRSjson/Korpa.html</loc>
+        <lastmod>2026-3-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://milanstojkovic12223.github.io/ServiseRSjson/Autor.html</loc>
+        <lastmod>2026-3-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.40</priority>
+    </url>
+</urlset>

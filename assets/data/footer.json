@@ -1,0 +1,18 @@
+[
+    {
+        "href": "https://twitter.com/",
+        "icon": "bi mx-3 bi-twitter"
+    },
+    {
+        "href": "sitemap.xml",
+        "icon": "bi mx-3 bi-diagram-3-fill"
+    },
+    {
+        "href": "DOKUMENTACIJA.pdf",
+        "icon": "bi bi-file-earmark-fill"
+    },
+    {
+        "href": "Servisiranje racunara.zip",
+        "icon": "bi bi-file-earmark-zip-fill"
+    }
+]

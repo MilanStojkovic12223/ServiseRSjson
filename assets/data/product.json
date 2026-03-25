@@ -1,0 +1,145 @@
+[
+    {
+        "id": 1,
+        "img": "assets/img/amd3.jpg",
+        "name": "AMD Ryzen 5 5600",
+        "price": 22000,
+        "discount": 40,
+        "type": "Procesori"
+    },
+
+    {
+        "id": 2,
+        "img": "assets/img/amd8.webp",
+        "name": "AMD Ryzen 7 5700",
+        "price": 27000,
+        "discount": 10,
+        "type": "Procesori"
+    },
+
+    {
+        "id": 3,
+        "img": "assets/img/i5-2.jpg",
+        "name": "INTEL Core i5-14600K",
+        "price": 44999,
+        "discount": 0,
+        "type": "Procesori"
+    },
+
+    {
+        "id": 4,
+        "img": "assets/img/i7.webp",
+        "name": "INTEL Core i7-14700",
+        "price": 61999,
+        "discount": 15,
+        "type": "Procesori"
+    },
+
+    {
+        "id": 5,
+        "img": "assets/img/mp1.webp",
+        "name": "MSI PRO A620M-E",
+        "price": 10999,
+        "discount": 20,
+        "type": "Matične ploče"
+    },
+
+    {
+        "id": 6,
+        "img": "assets/img/mp2.jpg",
+        "name": "ASROCK B650 PRO",
+        "price": 32999,
+        "discount": 40,
+        "type": "Matične ploče"
+    },
+
+    {
+        "id": 7,
+        "img": "assets/img/mp3.jpg",
+        "name": "GIGABYTE Z790",
+        "price": 34999,
+        "discount": 10,
+        "type": "Matične ploče"
+    },
+
+    {
+        "id": 8,
+        "img": "assets/img/mp4.jpg",
+        "name": "ASUS PRIME X670",
+        "price": 29999,
+        "discount": 0,
+        "type": "Matične ploče"
+    },
+
+    {
+        "id": 9,
+        "img": "assets/img/gk1.jpg",
+        "name": "MSI RTX4060Ti Ventus ",
+        "price": 64999,
+        "discount": 20,
+        "type": "Grafičke karte"
+    },
+
+    {
+        "id": 10,
+        "img": "assets/img/gk2.jpg",
+        "name": "GIGABYTE GeForce RTX4070 12GB",
+        "price": 99999,
+        "discount": 40,
+        "type": "Grafičke karte"
+    },
+
+    {
+        "id": 11,
+        "img": "assets/img/gk3.jpg",
+        "name": "ASUS GeForce RTX4060 DDR6",
+        "price": 69999,
+        "discount": 40,
+        "type": "Grafičke karte"
+    },
+
+    {
+        "id": 12,
+        "img": "assets/img/gk4.jpg",
+        "name": "GIGABYTE RTX4060 8G GV-3 DDDR6",
+        "price": 69999,
+        "discount": 0,
+        "type": "Grafičke karte"
+    },
+ 
+    {
+        "id": 13,
+        "img": "assets/img/mm1.jpg",
+        "name": "KINGSTON Fury Beast 16GB DDR5 6000MHz",
+        "price": 9999,
+        "discount": 40,
+        "type": "Memorija"
+    },
+
+    {
+        "id": 14,
+        "img": "assets/img/mm2.jpg",
+        "name": "KINGSTON Fury Beast 32GB DDR5 6000MHz",
+        "price": 16999,
+        "discount": 0,
+        "type": "Memorija"
+    },
+
+    {
+        "id": 15,
+        "img": "assets/img/mm3.jpg",
+        "name": "KINGSTON Fury Beast 16GB DDR5 6000MHz",
+        "price": 8999,
+        "discount": 20,
+        "type": "Memorija"
+    },
+
+    {
+        "id": 16,
+        "img": "assets/img/mm4.jpg",
+        "name": "KINGSTON Fury Beast 32GB DDR5 5200MHz",
+        "price": 14999,
+        "discount": 10,
+        "type": "Memorija"
+    }
+]

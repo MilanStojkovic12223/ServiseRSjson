@@ -1,0 +1,22 @@
+[
+    {
+        "img": "assets/img/apple-lg.jpg",
+        "href": "https://www.apple.com/",
+        "alt": "apple-logo"
+    },
+    {
+        "img": "assets/img/asus-lg.jpg",
+        "href": "https://www.asus.com/",
+        "alt": "asus-logo"
+    },
+    {
+        "img": "assets/img/hp-lg.jpg",
+        "href": "https://www.hp.com/us-en/home.html",
+        "alt": "HP-logo"
+    },
+    {
+        "img": "assets/img/lg-lg.jpg",
+        "href": "https://www.lg.com/us",
+        "alt": "LG-logo"
+    }
+]
