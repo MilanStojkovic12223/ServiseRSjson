@@ -54,7 +54,7 @@ try{
     
     const htmlLocation = window.location.href;
 
-    if(htmlLocation.includes("index.html") || window.location.pathname ==="/"){
+    if(htmlLocation.includes("index.html") || window.location.pathname ==="/" || window.location.pathname.endsWith("/ServiseRSjson/")){
         ajaxCallBack("services.json",renderServices);
         ajaxCallBack("associates.json",renderAssociates);
         discountTimer();
