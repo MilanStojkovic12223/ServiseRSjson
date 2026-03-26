@@ -85,7 +85,6 @@ try{
     }
     }catch(error){
         console.error("Greška u initializeCommonPage:", error);
-        alert("Došlo je do greške prilikom učitavanja stranice.");
     }
    
 
